@@ -1,0 +1,106 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+.container-gradiente {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    /* Alinear elementos al inicio */
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #1b7c83, #d46677, #ecadb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5em;
+    margin-top: 20px;
+    /* Agregar margen superior para separar del borde superior */
+    margin-bottom: 0px;
+    font-style: unset;
+}
+
+#pdf-container {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+
+#pdf-viewer {
+    width: 90%;
+    height: 100%;
+    border: 1px solid #1b7c83;
+    border-width: 2px;
+    padding: 10px;
+}
+
+#pdf-derecha {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#pdf-dropzone {
+    border: 3px dashed #1b7c83;
+    width: 100%;
+    height: 15%;
+
+    padding-right: 4px;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+#pdf-control {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#textoGeneradoArea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: #c75919;
+    text-align: left;
+}
+
+H2 {
+    color: #1b7c83;
+    /* Cambiar el color del texto a gris */
+    margin-top: 5px;
+}
+
+h3 {
+    color: rgb(167, 157, 157);
+    /* Cambiar el color del texto a gris */
+}
+
+h5 {
+    text-align: right;
+    margin-top: 0px;
+    color: rgb(167, 157, 157);
+    /* Cambiar el color del texto a gris */
+}

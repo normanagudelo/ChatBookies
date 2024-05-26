@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<title>CHATUPDF</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<style>
+ </style>
+<header>
+    <h5>by normanagudelo@gmail.com </h5>
+    <div class="container-gradiente">
+        <h1 class="gradient-text">CHATUPDF</h1>
+    </div>
+    <h2>Análisis de documentos</h2>
+</header>
+
+<body>
+    <div id="pdf-container">
+        <div id="pdf-viewer">
+            <!-- Aquí se mostrará el contenido del PDF -->
+        </div>
+        <div id="pdf-derecha">
+            <div id="pdf-dropzone" name="filePDF" placeholder="Arrastra y suelta un archivo PDF aquí">
+                <h3>Arrastra y suelta un archivo PDF aquí</h3>
+            </div>
+            <br>
+            <!--<div id="modoSeleccion">
+            <label><input type="radio" name="modo" value="diseno"> Modo Diseño de Prompt</label>
+            <label><input type="radio" name="modo" value="diagrama" id="modoDiagrama"> Modo Diagrama</label>
+        </div>-->
+            <div id="pdf-control">
+                <input type="text" name="query" placeholder="Ingrese aquí la consulta"
+                    style="width: 100%; height:30px; text-align: center; border-color: #1b7c83;">
+                <button type="button" style="margin-top: 10px; border-color: #1b7c83;"
+                    onclick="submitForm()">Consultar</button><br>
+                <h3>Respuesta Generativa</h3>
+                <div id="textoGeneradoArea"></div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
